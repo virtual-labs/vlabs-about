@@ -12,12 +12,11 @@
 * [[./images/team.jpg][team photo]]
 
 ** Sounak Pradhan
-
-** Photo 
+*** Photo 
 
    [[./images/sounak.jpg][Sounak Pradhan]]
 
-** Project Title: Experiment as a Service
+*** Project Title: Experiment as a Service
    I worked on the Experiment as a Service project. This platform
    gives developers the freedom of authoring the content of the
    Virtual Labs experiments in markup files stored in a Github
@@ -25,7 +24,7 @@
    resources from the markup files authored by the Virtual Labs
    developers and hosts them on the production servers.
 
-** Experience: 
+*** Experience: 
    I learnt to work in a professional environment for the first time
    which made my experience a memorable one. I learnt a lot of
    subject matter from the mentors and other interns which helped me
@@ -34,18 +33,18 @@
 
 ** Kanay Gupta 
 
-** Photo 
+*** Photo 
 
    [[./images/kanaygupta.jpg][Kanay Gupta]]
 
-** Project Title: Data Structures Virtual Lab
+*** Project Title: Data Structures Virtual Lab
    I built experiments for the Data Structures Virtual Lab to improve
    the comprehensibility of the lab for the end users. I implemented
    two experiments - Merge Sort and Quick Sort based on HTML,
    java-script and Dagre-d3 based libraries. I also surveyed and
    documented several technologies such as processing, p5.js etc.
 
-** Experience: 
+*** Experience: 
    My internship experience has been an excellent one. I got to learn
    a lot from my mentor Venkatesh sir. He motivated us all the time
    towards our goals. Apart from my work here, I also interacted with
@@ -55,18 +54,102 @@
 
 ** Mahee Surya  
 
-** Photo 
+*** Photo 
 
    [[./images/maheesurya.jpg][Mahee Surya]]
 
-** Project Title: Conversion of Virtual Labs from Flash to JavaScript
+*** Project Title: Conversion of Virtual Labs from Flash to JavaScript
    I converted Virtual Lab experiments from Flash to JavaScript. Hence
    creating similar experiences in JavaScript can benefit us with
    easier understandability, decompilation and re-use of Virtual Labs.
 
-
-** Experience: 
+*** Experience: 
    I found my internship experience very helpful in enhancing my
    knowledge. The experience made me understand the importance of
    Teamwork and also gain some very important insights of working with
    different domains of people.
+   
+
+** Nikhil Bansal
+*** Photo
+*** Project Title:Rebuilding the Linux Lab
+    I debugged the code of the existing Linux Lab and now
+    the Lab is running fine on Ubuntu 14.04 system. I also
+    automated the process of setting the Linux Lab just by
+    running an automation script. I also worked on improving
+    the experiments for Linux Lab.
+*** Experience:  
+    I have had a great experience working for VLEAD learning
+    a lot from my mentors and instructors. The best part of
+    my internship were discussions with my mentor which
+    enhanced my skills both technically and professionally
+    for future.
+
+** Aditya Todi 
+*** Photo
+*** Project Title:Experiment as a Service
+    The project was to build a Virtual Labs Platform which
+    can be used to serve the content of experiments. The aim
+    was to give freedom of using editors and formats that
+    are more flexible to generate content for Virtual Labs.
+*** Experience:  
+    It was an amazing experience working with VLEAD
+    developers. This was my first internship
+    experience. Working in a professional environment was
+    new to me. Mentors and other interns helped me a lot in
+    my project.
+
+** Yahnit 
+*** Photo
+*** Project Title: Lab Data Service Dashboard
+    Our goal was to minimize the users efforts in accessing
+    and manipulating data of Virtual Labs. We developed it
+    as an SPA (Single Page Application) and built it from
+    the scratch using plain JavaScript without any
+    framework.
+*** Experience: 
+    This is my first internship experience and I strongly
+    felt that I have spent quality time here . I got a clear
+    idea on how things are dealt at the corporate level. I
+    also received tremendous support from all the mentors
+    around me. This experience made me understand the
+    importance of team work and made me competent to work in
+    a professional environment.
+
+** Utkarsh
+*** Photo
+*** Project Title:Lab Data Service Dashboard
+    The project required us to design a user-friendly
+    dashboard for Lab Data Service (LDS) to minimize the
+    users efforts in accessing and manipulating data from
+    all the Virtual Labs. We developed it as an SPA (Single
+    Page Application) just using plain JavaScript without
+    any framework along with JSON specification for view
+    model which was the most challenging part of all.
+*** Experience:  
+    This internship experience was exactly like I wanted it
+    to be. My understanding of the subject and concepts have
+    really grown a lot which is all due to the support of my
+    mentors. I think this has really made me compatible to
+    work in any professional environment in the future.
+** Anirudh
+*** Photo
+*** Project Title: A. Modelling a web application in Alloy
+    The first project I worked on was using a specification
+    language (like alloy) to model our web application.This
+    was done in order to see that all the requirements of
+    the application are met and are also correct without
+    actually writing the real code.
+*** Project Title: B. Modular development of routes in the web application.
+    The second project I did was to complete the routes for
+    various operations (like addrole,setemail etc totally 12
+    of them) modularly so that each module could be used
+    independently.
+
+
+*** Experience:
+I have had a great experience working for VLEAD learning
+    a lot from my mentors and instructors. The best part of
+    my internship were discussions with my mentor which
+    enhanced my skills both technically and professionally
+    for future.
