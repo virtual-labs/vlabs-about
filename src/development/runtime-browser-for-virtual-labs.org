@@ -8,3 +8,59 @@
 
 
 
+** Overview and Motivation 
+
+Virtual Labs is providing an easier approach to access Virtual Labs
+and its experiments using runtime browser through [[https://www.virtualbox.org/wiki][VirtualBox]].
+
+Installing VirtualBox will eliminate the need for installing
+dependencies such as Adobe Flash, Java3D, etc. on user machine.
+
+The VirtualBox that is provided by Virtual Labs can be used for both
+[Online] and [Offline (College Cloud)] versions of Virtual Labs.
+
+** Audience 
+Virtual Lab users. 
+
+** Systems Requirements 
+ Minimum systems requirements.
+
+   + Operating Systems (OS) - Any OS that supports Oracle VirtualBox
+     or VMWare Workstation.
+   + The system should have the provision to support Virtualization
+     Technology.
+   + 4GB RAM.  
+   + Dual Core processor.
+** VirtualBox installation steps
+
+   + Visit the VirtualBox provider website. Please note that
+     installation needs to be done only once.  
+   + Choose the appropriate VirtualBox version based on the Operating
+     System ( OS ) installed on the machine.  
+   + Download the selected VirtualBox.  
+   + VirtualBox installation steps for Windows OS : 
+       + Double click on .exe file. 
+       + Follow the instructions appearing on installation wizard.
+       + After installation, ensure that a VirtualBox icon is created
+         on the desktop.
+   + Steps 6,7 and 8 are installation step examples for CentOS-6.x,
+     Ubuntu 14.04. and Mac OS respectively. These installation steps
+     will vary based on the version of the OS installed on the user
+     machine. Please follow the link for appropriate steps.
+
+   +  VirtualBox installation steps for CentOS-6.X OS : 
+      + Download RPM package using the following command : wget
+        http://download.virtualbox.org/virtualbox/5.1.6/VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm
+        Install VirtualBox using the following command :
+        sudo rpm -i VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm 
+   + VirtualBox installation steps for Ubuntu 14.04 : 
+      + Download RPM package using the following command : 
+        wget http://download.virtualbox.org/virtualbox/5.2.0/virtualbox-5.2_5.2.0-118431~Ubuntu~trusty_amd64.deb
+      + Install VirtualBox using the following command : 
+        sudo dpkg -i virtualbox-5.2_5.2.0-118431~Ubuntu~trusty_amd64.deb 
+   + VirtualBox installation steps for Mac OS : Follow the link to
+     download the VirtualBox for Mac and save it.  Double click on
+     downloaded (.dmg) file and follow the instructions for
+     installation.
+
+ 
