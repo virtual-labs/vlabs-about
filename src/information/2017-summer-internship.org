@@ -1,4 +1,4 @@
-#+TITLE: Virtual Teachers 
+#+TITLE: 2017 Summer Internship Program (June 1, 2017 to July 20, 2017)
 #+AUTHOR: VLEAD
 #+DATE: [2018-01-16 Tuesday]
 #+SETUPFILE: ./org-templates/level-0.org
@@ -7,4 +7,66 @@
 #+OPTIONS: ^:nil
 
 
+* Interns/Projects/Experience
 
+* [[./images/team.jpg][team photo]]
+
+** Sounak Pradhan
+
+** Photo 
+
+   [[./images/sounak.jpg][Sounak Pradhan]]
+
+** Project Title: Experiment as a Service
+   I worked on the Experiment as a Service project. This platform
+   gives developers the freedom of authoring the content of the
+   Virtual Labs experiments in markup files stored in a Github
+   repository. The platform also automatically generates the HTML
+   resources from the markup files authored by the Virtual Labs
+   developers and hosts them on the production servers.
+
+** Experience: 
+   I learnt to work in a professional environment for the first time
+   which made my experience a memorable one. I learnt a lot of
+   subject matter from the mentors and other interns which helped me
+   tremendously in my project.
+
+
+** Kanay Gupta 
+
+** Photo 
+
+   [[./images/kanaygupta.jpg][Kanay Gupta]]
+
+** Project Title: Data Structures Virtual Lab
+   I built experiments for the Data Structures Virtual Lab to improve
+   the comprehensibility of the lab for the end users. I implemented
+   two experiments - Merge Sort and Quick Sort based on HTML,
+   java-script and Dagre-d3 based libraries. I also surveyed and
+   documented several technologies such as processing, p5.js etc.
+
+** Experience: 
+   My internship experience has been an excellent one. I got to learn
+   a lot from my mentor Venkatesh sir. He motivated us all the time
+   towards our goals. Apart from my work here, I also interacted with
+   Google Hyderabad co-interns from different companies about the
+   VLEAD platform which made it a memorable experience.
+
+
+** Mahee Surya  
+
+** Photo 
+
+   [[./images/maheesurya.jpg][Mahee Surya]]
+
+** Project Title: Conversion of Virtual Labs from Flash to JavaScript
+   I converted Virtual Lab experiments from Flash to JavaScript. Hence
+   creating similar experiences in JavaScript can benefit us with
+   easier understandability, decompilation and re-use of Virtual Labs.
+
+
+** Experience: 
+   I found my internship experience very helpful in enhancing my
+   knowledge. The experience made me understand the importance of
+   Teamwork and also gain some very important insights of working with
+   different domains of people.
