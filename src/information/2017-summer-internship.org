@@ -30,7 +30,6 @@
    subject matter from the mentors and other interns which helped me
    tremendously in my project.
 
-
 ** Kanay Gupta 
 
 *** Photo 
@@ -51,7 +50,6 @@
    Google Hyderabad co-interns from different companies about the
    VLEAD platform which made it a memorable experience.
 
-
 ** Mahee Surya  
 
 *** Photo 
@@ -69,9 +67,9 @@
    Teamwork and also gain some very important insights of working with
    different domains of people.
    
-
 ** Nikhil Bansal
 *** Photo
+     [[./images/nikhil.jpg][Nikhil Bansal]]
 *** Project Title:Rebuilding the Linux Lab
     I debugged the code of the existing Linux Lab and now
     the Lab is running fine on Ubuntu 14.04 system. I also
@@ -87,6 +85,7 @@
 
 ** Aditya Todi 
 *** Photo
+    [[./images/aditya.jpg][Aditya Todi]]
 *** Project Title:Experiment as a Service
     The project was to build a Virtual Labs Platform which
     can be used to serve the content of experiments. The aim
@@ -101,6 +100,7 @@
 
 ** Yahnit 
 *** Photo
+    [[./images/yahnit.jpg][Yahnit]]
 *** Project Title: Lab Data Service Dashboard
     Our goal was to minimize the users efforts in accessing
     and manipulating data of Virtual Labs. We developed it
@@ -118,6 +118,7 @@
 
 ** Utkarsh
 *** Photo
+    [[./images/utkarsh.jpg][Utkarsh]]
 *** Project Title:Lab Data Service Dashboard
     The project required us to design a user-friendly
     dashboard for Lab Data Service (LDS) to minimize the
@@ -134,6 +135,7 @@
     work in any professional environment in the future.
 ** Anirudh
 *** Photo
+    [[./images/anirudh.jpg][Anirudh]]
 *** Project Title: A. Modelling a web application in Alloy
     The first project I worked on was using a specification
     language (like alloy) to model our web application.This
@@ -146,10 +148,68 @@
     of them) modularly so that each module could be used
     independently.
 
-
 *** Experience:
-I have had a great experience working for VLEAD learning
+    I have had a great experience working for VLEAD learning
     a lot from my mentors and instructors. The best part of
     my internship were discussions with my mentor which
     enhanced my skills both technically and professionally
     for future.
+
+** Projit Bandyopadhyay
+*** Photo
+     [[./images/projit-bandyopadhyay.jpg][Projit Bandyopadhyay]]
+*** Project Title: A. Oauth Service
+    In this project I surveyed current industrial standards
+    on authorization and authentication between
+    microservices and built a model based on the
+    interactions in the Oauth 2.0 protocol.
+*** Project Title:B. Lab Authoring Tools
+    I developed the programming model for web tools used to
+    create online labs without the knowledge of coding along
+    with a comparative study of various modelling and
+    game-creation software.
+*** Project Title:C. Web Security
+    I helped write a paper regarding modelling and
+    mitigating cross origin attacks on systems using
+    federated identity management.
+*** Experience  
+    The freedom we got to explore different areas was
+    wonderful and the guidance we received was of great
+    help. I would definitely recommend students to take up
+    this internship in the future.
+** Atreyee
+*** Photo
+    [[./imahes/atreyee.jpg][Atreyee]]
+*** Project Title: A. Web App in Haskell
+    I worked on projects using functional languages- chiefly
+    Haskell. The first project comprised of writing a
+    proof-of-concept for a web application in Haskell, and
+    performing a brief comparison study with equivalent
+    software written in other languages.
+*** Project Title: B. NLP Tools In Functional Languages
+    The second project consisted of studying NLP tools in
+    functional languages and an attempt to rewrite them to
+    fit a Paninian Grammar framework.
+*** Experience 
+    My internship experience was extremely interesting. I
+    had the chance to work on two of my chief interests -
+    functional programming and NLP - and gain experience and
+    knowledge from professors who have worked in these
+    fields.
+** Savar Mehrotra 
+*** Photo
+    [[./images/savarmehrotra.jpg][Savar Mehrotra]]
+*** Project Title:Tool for Continuous Integration
+    I developed a microservice for the DevOps practice
+    continuous integration as part of this project. We
+    developed this tool right from scratch which would help
+    the developers from all around the globe to be able to
+    freely contribute to the Virtual-Labs project without
+    any human intervention. Moreover bug detection will
+    become more lucid with this tool.
+*** Experience 
+    My experience at VLEAD was great. I got an opportunity
+    to work with the latest standards and practices followed
+    by the industry.The team of VLEAD are highly resourceful
+    and approachable, so this served as a major contributor
+    to my learning curve.
