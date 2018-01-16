@@ -1,0 +1,36 @@
+#+TITLE: Design of Vlabs About pages
+#+AUTHOR: VLEAD
+#+DATE: [2018-01-16 Tuesday]
+#+PROPERTY: results output
+#+PROPERTY: exports code
+#+SETUPFILE: ../org-templates/level-1.org
+#+options: ^:nil
+#+LATEX: Literal LaTeX code for export
+
+* Introduction 
+  This document describes  the design of =vlabs-about-pages=.
+
+* Design
+ 
+** Layout
+   The landing page is divided into three main
+   divisions: 1. header, 2. content and 3. footer. 
+
+   #+caption: layout of landing page
+   #+name: fig:layout
+   [[./img/layout.png]]
+
+** Header Division
+   #+caption: layout of header division
+   #+name: fig:header
+   [[./img/header.png]]
+   
+** Content Division
+ 
+
+** Footer Division
+  
+
+
+   
+  

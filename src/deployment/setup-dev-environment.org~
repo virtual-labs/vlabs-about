@@ -1,0 +1,132 @@
+#+TITLE: Setup Vlabs About pages in Dev Environment
+#+AUTHOR: VLEAD
+#+DATE: [2018-01-16 Tues]
+#+SETUPFILE: ../org-templates/level-1.org
+#+TAGS: boilerplate(b)
+#+EXCLUDE_TAGS: boilerplate
+#+OPTIONS: ^:nil
+
+* Introduction
+  This document has steps to run the vlab about pages on
+  development environment
+
+
+* Run Vlabs landing pages in development environment
+  Vlabs landing pages is a Javascript based application
+  which is built based on
+    - Lab data service
+    - Openedx platform
+  Therefore to run Vlabs landing pages in development
+  environment it is required to setup =Lab data service= and
+  =Openedx platform= in prior.
+** Setup Lab data service (LDS)
+   Follow the [[https://github.com/vlead/lab-data-service/blob/develop/src/deployment/run-lds-in-development-environment.org][documentation]] to setup the LDS in development
+   environment
+** Setup the Openedx platform
+   Follow the [[https://github.com/vlead/vlabs-openedx-platform/blob/develop/src/deployment/index.org#introduction][documentation]]ion to setup the Openedx platform
+   with version =Ginkgo= in development environment
+** Setup vlabs-landing pages
+   Following are the steps to run the =vlabs-landing-pages=
+   in development environment
+  
+  1. [[http://files.vlabs.ac.in/downloads/vagrant-boxes/vlead-dev.box][Download]] the vagrant box 
+  2. Add the box to vagrant
+     #+BEGIN_EXAMPLE
+     #vagrant box add vlabs-pages <file-name>.box
+     vagrant box add vlabs-pages vlead-dev.box
+     #+END_EXAMPLE
+  3. Create a directory =vlabs-pages= and initialize the
+     vagrant setup
+     #+BEGIN_EXAMPLE
+     mkdir vlabs-pages
+     cd vlabs-pages
+     vagrant init vlabs-pages
+     #+END_EXAMPLE
+  4. Above step(3) generates =Vagrantfile=
+  5. Edit the =Vagrantfile= using editor (like e.g emacs,
+     vim, etc.) and uncomment below line by removing =#= in
+     the beginning of the line to set the vagrant to use
+     private network (e.g 192.168.33.22)
+     #+BEGIN_EXAMPLE
+     #config.vm.network "private_network", ip: "192.168.33.10" 
+     config.vm.network "private_network", ip: "192.168.33.22" 
+     #+END_EXAMPLE
+  6. Boot the machine
+     #+BEGIN_EXAMPLE
+     vagrant up 
+     #+END_EXAMPLE
+  7. Login in to the machine as root.  Sometimes, login will
+     succeed after a few tries. 
+     #+BEGIN_EXAMPLE
+     vagrant ssh 
+     sudo su -
+     #+END_EXAMPLE
+  8. Export =http_proxy= and =https_proxy= variables if your
+     network behind the =http_proxy=
+     #+BEGIN_EXAMPLE
+     export http_proxy="http://proxy.iiit.ac.in:8080"
+     export https_proxy="http://proxy.iiit.ac.in:8080"
+     #+END_EXAMPLE
+
+  9. Clone the [[https://github.com/vlead/vlabs-landing-pages.git][vlabs-landing-pages]] repository.
+     #+BEGIN_EXAMPLE
+     git clone https://github.com/vlead/vlabs-landing-pages.git
+     #+END_EXAMPLE
+  10. Checkout to =develop= branch and build the sources
+      #+BEGIN_EXAMPLE
+      cd vlabs-landing-pages
+      git checkout develop
+      make
+      #+END_EXAMPLE
+  11. Remove the default =index.html= from =/var/www/html/=
+  12. Rsync directory =build/code/runtime/= to =/var/www/html/=
+      #+BEGIN_EXAMPLE
+      rsync -avz --progress build/code/runtime/ /var/www/
+      #+END_EXAMPLE
+  13. Change directory to =/var/www/html=
+      #+BEGIN_EXAMPLE
+      cd /var/www/html/
+      #+END_EXAMPLE
+  14. Configure =document.domain= value to =vlabs.ac.in= in
+      =disciplines.html=, =institutes.html= and =labs.html=
+      files
+      #+BEGIN_EXAMPLE
+      ------
+      --------
+      document.domain="vlabs.ac.in"
+      --------
+      -------
+
+      #+END_EXAMPLE
+  15. Configure the following variables in
+      =/var/www/html/js/app-config.js= 
+
+      1. document.domain = "vlabs.ac.in"
+
+      2. base_url = "http://alpha-openedx.vlabs.ac.in"
+
+      3. lds_url = "http://alpha-lds.vlabs.ac.in"
+
+  16. Restart the =apache2= server
+      #+BEGIN_EXAMPLE
+      service apache2 restart
+      #+END_EXAMPLE
+
+** Configure base machine =/etc/hosts= file
+   Since the =vlabs-landing-pages= , =lab-data-service= and
+   =openedx-platform= are configured separately following
+   changes should be done for resolving local machines 
+  1. Copy the following lines into =/etc/hosts= to resolve
+     the domain names locally
+     #+BEGIN_EXAMPLE
+     ---------
+     ---------
+     192.168.33.20 alpha.vlabs.ac.in
+     192.168.33.22 alpha-openedx.vlabs.ac.in
+     #+END_EXAMPLE
+  2. Access vlabs-landig-page on base machine's browser
+     #+BEGIN_EXAMPLE
+     firefox http://alpha.vlabs.ac.in
+     #+END_EXAMPLE
+  
+     
