@@ -14,7 +14,7 @@ init:
 	./init.sh
 
 build: init
-	make -f tangle-make -k all
+	make -f tangle-make -k readtheorg=true all
 
 install-pep:
 	sudo pip install pep8
@@ -29,3 +29,4 @@ run-py-tests:
 
 clean:	
 	make -f tangle-make clean
+

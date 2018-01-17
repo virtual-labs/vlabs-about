@@ -1,4 +1,3 @@
-#+TITLE: Contact us 
 #+AUTHOR: VLEAD
 #+DATE: [2018-01-16 Tuesday]
 #+SETUPFILE: ./org-templates/level-0.org

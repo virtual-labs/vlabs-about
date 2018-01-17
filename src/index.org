@@ -15,9 +15,9 @@
 ** Information 
  #+include: "./information/2017-summer-internship.org"
  #+include: "./information/announcements.org"
+ #+include: "./information/contact-us.org"
 ** FAQ 
- #+include: "./faq/expression-of-interest-for-workshops.org"
- #+include: "./faq/virtual-labs.org"
- #+include: "./faq/virtual-labs-college-cloud-edition.org"
+ #+include: "./faq/faq.org"
+
 ** Development 
  #+include: "./development/runtime-browser-for-virtual-labs.org"
