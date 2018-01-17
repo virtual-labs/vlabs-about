@@ -8,7 +8,7 @@
 
 * 2017 Virtual Labs Summer Internship Program
 ** Internship Program June 1, 2017 to July 20, 2017
-  [[./images/team.jpg][team photo]]
+  [[https://github.com/virtual-labs/vlabs-about/blob/html-to-literate/src/information/images/team.jpg][team photo]]
 ** Interns/Projects/Experience
 *** Sounak Pradhan
 **** Photo 
