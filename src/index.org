@@ -6,7 +6,8 @@
 #+EXCLUDE_TAGS: boilerplate
 #+OPTIONS: ^:nil
 
-
+* Community
+   #+include: "./community/index.org"
 * Workshops
 #+include: "./workshops/index.org
 * Information 
@@ -16,4 +17,5 @@
 #+include: "./faq/faq.org"
 
 * Development 
-  #+include: "./development/runtime-browser-for-virtual-labs.org"
+  #+include: "./development/index.org"
+
