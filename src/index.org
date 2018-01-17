@@ -10,9 +10,8 @@
 * Workshops
 #+include: "./workshops/index.org
 * Information 
-#+include: "./information/2017-summer-internship.org"
-#+include: "./information/announcements.org"
-#+include: "./information/contact-us.org"
+#+include: "./information/index.org"
+
 * FAQ 
 #+include: "./faq/faq.org"
 
