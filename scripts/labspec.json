@@ -68,7 +68,7 @@
             "cd ../;make"
           ],
           "post_build": [
-            "cp -R ../build/code/* /var/www/",
+            "cp -R ../build/docs/* /var/www/",
             "chmod -R 755 /var/www",
             "mkdir /var/www/logs",
             "chmod -R 777 /var/www/logs"          
