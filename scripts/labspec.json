@@ -68,11 +68,10 @@
             "cd ../;make build"
           ],
           "post_build": [
-            "service apache2 restart",
-            "rm /var/www/html/index.html",
-            "cp -R ../build/code/runtime/* /var/www/html/",
-            "chmod -R 755 /var/www/html/"
-            
+            "cp -R ../build/code/* /var/www/",
+            "chmod -R 755 /var/www",
+            "mkdir /var/www/logs",
+            "chmod -R 777 /var/www/logs"          
           ],
           "status": []
         }
