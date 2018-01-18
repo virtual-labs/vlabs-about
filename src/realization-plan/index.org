@@ -1,0 +1,104 @@
+#+TITLE: Plan for Vlabs About
+#+AUTHOR: VLEAD
+#+DATE: [2018-01-18 Thursday]
+#+PROPERTY: results output
+#+PROPERTY: exports code
+#+SETUPFILE: ../org-templates/level-1.org
+#+options: ^:nil
+#+LATEX: Literal LaTeX code for export
+
+* Introduction
+  - This document contains the realization plan for
+    vlabs about.
+
+* Milestones Snapshot
+
+  |---+----+----+-----+------------------------------------+------+--------+-----+-----+--------|
+  |   | S. | Mi | Req | Milestone                          | Plan | Status | Est | Act | Issues |
+  |   | no | no | Map |                                    |      |        | hrs | hrs |        |
+  |---+----+----+-----+------------------------------------+------+--------+-----+-----+--------|
+  |   | 1. | [[https://github.com/virtual-labs/vlabs-about/milestone/1][1]]  |     | [[https://github.com/virtual-labs/vlabs-about/milestone/1][Literate mode of vlabs about pages]] | [[Literate mode of vlabs about pages][ref]]  | Close  | 18  | 0   | [[https://github.com/vlead/vlabs-landing-pages/milestone/9][ref]]    |
+  |---+----+----+-----+------------------------------------+------+--------+-----+-----+--------|
+  | ^ |    |    |     |                                    |      |        | est | act |        |
+  |---+----+----+-----+------------------------------------+------+--------+-----+-----+--------|
+  #+TBLFM: @3$8=remote(tbl-rlz-pln-ml-1, $est)
+  #+TBLFM: @3$9=remote(tbl-rlz-pln-ml-1 $act)
+  #+TBLFM: $est=vsum(@II+1..@-1)
+  #+TBLFM: $act=vsum(@II+1..@-1)
+
+* Detailed Plan 
+** Literate mode of vlabs about pages
+#+caption:  realization-plan-milestone-1
+#+name: tbl-rlz-pln-ml-1
+
+|---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
+|   |    S. | Tasks                    | Github | Expected | Actual |  Estimated |     Actual | Status | Assignee  |
+|   |    NO |                          | Issues |   Effort | Effort |     Start, |     Start/ |        |           |
+|   |       |                          |        |      (in |    (in |        End |        End |        |           |
+|   |       |                          |        |   person | person |      Dates |      Dates |        |           |
+|   |       |                          |        |   hours) | hours) |            |            |        |           |
+|---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
+|   |    1. | Convert html file of     | [[https://github.com/virtual-labs/vlabs-about/issues/9][#9]]     |       02 |     01 | 16-01-2018 | 16-01-2018 | Done   | Balamma   |
+|   |       | "Virtual Labs College    |        |          |        | 16-01-2018 | 16-01-2018 |        | Sanchita  |
+|   |       | Cloud Edition" page      |        |          |        |            |            |        | Mrudhvika |
+|   |       | into org file            |        |          |        |            |            |        |           |
+|---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
+|   |    2. | Convert html file of     | [[https://github.com/virtual-labs/vlabs-about/issues/10][#10]]    |       08 |     06 | 16-01-2018 | 16-01-2018 | Done   | Balamma   |
+|   |       | "Expression of           |        |          |        | 16-01-2018 | 16-01-2018 |        | Sanchita  |
+|   |       | Interest for Workshops"  |        |          |        |            |            |        | Mrudhvika |
+|   |       | page into org file       |        |          |        |            |            |        |           |
+|---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
+|   |    3. | Convert html file of     | [[https://github.com/virtual-labs/vlabs-about/issues/11][#11]]    |       03 |     02 | 16-01-2018 | 16-01-2018 | Done   | Balamma   |
+|   |       | "Announcement" page      |        |          |        | 16-01-2018 | 16-01-2018 |        | Sanchita  |
+|   |       | into org file            |        |          |        |            |            |        | Mrudhvika |
+|---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
+|   |    4. | Convert html file of     | [[https://github.com/virtual-labs/vlabs-about/issues/12][#12]]    |       02 |     01 | 17-01-2018 | 17-01-2018 | Done   | Balamma   |
+|   |       | "Contact us" page into   |        |          |        | 17-01-2018 | 17-01-2018 |        | Sanchita  |
+|   |       | org file                 |        |          |        |            |            |        | Mrudhvika |
+|---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
+|   |    5. | Convert html file of     | [[https://github.com/virtual-labs/vlabs-about/issues/13][#13]]    |       02 |     01 | 17-01-2018 | 17-01-2018 | Done   | Balamma   |
+|   |       | "2017-summer-internship" |        |          |        | 17-01-2018 | 17-01-2018 |        | Sanchita  |
+|   |       | page into org file       |        |          |        |            |            |        | Mrudhvika |
+|   |       |                          |        |          |        |            |            |        |           |
+|---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
+|   |    6. | Convert html file of     | [[https://github.com/virtual-labs/vlabs-about/issues/8][#8]]     |       01 |     01 | 17-01-2018 | 17-01-2018 | Done   | Balamma   |
+|   |       | "Virtual labs" page into |        |          |        | 17-01-2018 | 17-01-2018 |        | Sanchita  |
+|   |       | org file                 |        |          |        |            |            |        | Mrudhvika |
+|---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
+|   |    7. | Convert html file of     | [[https://github.com/virtual-labs/vlabs-about/issues/7][#7]]     |       03 |     03 | 17-01-2018 | 17-01-2018 | Done   | Balamma   |
+|   |       | "College Cloud Edition"  |        |          |        | 17-01-2018 | 17-01-2018 |        | Sanchita  |
+|   |       | page into org file       |        |          |        |            |            |        | Mrudhvika |
+|---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
+|   |    8. | Convert html file of     | [[https://github.com/virtual-labs/vlabs-about/issues/6][#6]]     |       02 |     01 | 17-01-2018 | 17-01-2018 |        | Balamma   |
+|   |       | "online" page into       |        |          |        | 17-01-2018 | 17-01-2018 |        | Sanchita  |
+|   |       | org file                 |        |          |        |            |            | Done   | Mrudhvika |
+|---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
+|   |    9. | Convert html file of     | [[https://github.com/virtual-labs/vlabs-about/issues/5][#5]]     |       02 |     02 | 17-01-2018 | 17-01-2018 |        | Balamma   |
+|   |       | "Runtime browser for     |        |          |        | 17-01-2018 | 17-01-2018 | Done   | Sanchita  |
+|   |       | Virtual Labs" page into  |        |          |        |            |            |        | Mrudhvika |
+|   |       | org file                 |        |          |        |            |            |        |           |
+|---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
+|   |   10. | Convert html file of     | [[https://github.com/virtual-labs/vlabs-about/issues/4][#4]]     |       02 |     02 | 17-01-2018 | 17-01-2018 | Done   | Balamma   |
+|   |       | "Virtual Labs            |        |          |        | 17-01-2018 | 17-01-2018 |        | Sanchita  |
+|   |       | Development" page into   |        |          |        |            |            |        | Mrudhvika |
+|   |       | org file                 |        |          |        |            |            |        |           |
+|---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
+|   |   11. | Convert html file of     | [[https://github.com/virtual-labs/vlabs-about/issues/3][#3]]     |        1 |    0.5 | 16-01-2018 | 18-01-2018 | Done   | Balamma   |
+|   |       | "Students" page into     |        |          |        | 16-01-2018 | 18-01-2018 |        | Mrudhvika |
+|   |       | org file                 |        |          |        |            |            |        | Sanchita  |
+|---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
+|   |   12. | Convert html file of     | [[https://github.com/virtual-labs/vlabs-about/issues/2][#2]]     |        1 |    0.5 | 16-01-2018 | 18-01-2018 |        | Balamma   |
+|   |       | "Developers" page into   |        |          |        | 16-01-2018 | 18-01-2018 | Done   | Mrudhvika |
+|   |       | org file                 |        |          |        |            |            |        | Sanchita  |
+|---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
+|   |   13. | Convert html file of     | [[https://github.com/virtual-labs/vlabs-about/issues/1][#1]]     |        1 |    0.5 | 16-01-2018 | 18-01-2018 |        | Balamma   |
+|   |       | "Teachers" page into     |        |          |        | 16-01-2018 | 18-01-2018 | Done   | Sanchita  |
+|   |       | org file                 |        |          |        |            |            |        | Mrudhvika |
+|---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
+|   |       |                          |        |          |        |            |            |        |           |
+|   | Total |                          |        |      248 |     81 |            |            |        |           |
+| ^ |       |                          |        |      est |    act |            |            |        |           |
+|---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
+#+TBLFM: $est=vsum(@II+1..@-1)
+#+TBLFM: $act=vsum(@II+1..@-1)
+
