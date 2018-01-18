@@ -13,24 +13,24 @@
 
 * Milestones Snapshot
 
-  |---+----+----+-----+------------------------------------+------+--------+-----+-----+--------|
-  |   | S. | Mi | Req | Milestone                          | Plan | Status | Est | Act | Issues |
-  |   | no | no | Map |                                    |      |        | hrs | hrs |        |
-  |---+----+----+-----+------------------------------------+------+--------+-----+-----+--------|
-  |   | 1. | [[https://github.com/virtual-labs/vlabs-about/milestone/1][1]]  |     | [[https://github.com/virtual-labs/vlabs-about/milestone/1][Literate mode of vlabs about pages]] | [[Literate mode of vlabs about pages][ref]]  | Close  | 18  | 0   | [[https://github.com/vlead/vlabs-landing-pages/milestone/9][ref]]    |
-  |---+----+----+-----+------------------------------------+------+--------+-----+-----+--------|
-  | ^ |    |    |     |                                    |      |        | est | act |        |
-  |---+----+----+-----+------------------------------------+------+--------+-----+-----+--------|
-  #+TBLFM: @3$8=remote(tbl-rlz-pln-ml-1, $est)
-  #+TBLFM: @3$9=remote(tbl-rlz-pln-ml-1 $act)
-  #+TBLFM: $est=vsum(@II+1..@-1)
+  |---+-------+----+-----+------------------------------------+------+--------+-----+------+--------|
+  |   | S.    | Mi | Req | Milestone                          | Plan | Status | Est | Act  | Issues |
+  |   | no    | no | Map |                                    |      |        | hrs | hrs  |        |
+  |---+-------+----+-----+------------------------------------+------+--------+-----+------+--------|
+  |   | 1.    | [[https://github.com/virtual-labs/vlabs-about/milestone/1][1]]  |     | [[https://github.com/virtual-labs/vlabs-about/milestone/1][Literate mode of vlabs about pages]] | [[Literate mode of vlabs about pages][ref]]  | Close  | 30  | 21.5 | [[https://github.com/virtual-labs/vlabs-about/milestone/1?closed=1][ref]]    |
+  |---+-------+----+-----+------------------------------------+------+--------+-----+------+--------|
+  |   | Total |    |     |                                    |      |        | 30  | 21.5 |        |
+  | ^ |       |    |     |                                    |      |        | est | act  |        |
+  |---+-------+----+-----+------------------------------------+------+--------+-----+------+--------|
+  #+TBLFM: @3$8=remote(tbl-rlz-pln-ml-1,$est)
+  #+TBLFM: @3$9=remote(tbl-rlz-pln-ml-1,$act)
   #+TBLFM: $act=vsum(@II+1..@-1)
+  #+TBLFM: $est=vsum(@II+1..@-1)
 
 * Detailed Plan 
 ** Literate mode of vlabs about pages
 #+caption:  realization-plan-milestone-1
 #+name: tbl-rlz-pln-ml-1
-
 |---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
 |   |    S. | Tasks                    | Github | Expected | Actual |  Estimated |     Actual | Status | Assignee  |
 |   |    NO |                          | Issues |   Effort | Effort |     Start, |     Start/ |        |           |
@@ -95,8 +95,7 @@
 |   |       | "Teachers" page into     |        |          |        | 16-01-2018 | 18-01-2018 | Done   | Sanchita  |
 |   |       | org file                 |        |          |        |            |            |        | Mrudhvika |
 |---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
-|   |       |                          |        |          |        |            |            |        |           |
-|   | Total |                          |        |      248 |     81 |            |            |        |           |
+|   | Total |                          |        |       30 |   21.5 |            |            |        |           |
 | ^ |       |                          |        |      est |    act |            |            |        |           |
 |---+-------+--------------------------+--------+----------+--------+------------+------------+--------+-----------|
 #+TBLFM: $est=vsum(@II+1..@-1)
