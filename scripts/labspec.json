@@ -1,13 +1,10 @@
 {
   "lab": {
     "description": {
-      "name": "Vlabs Landing Pages",
-      "id": "vlabs-landing-pages",
+      "name": "Vlabs About",
+      "id": "vlabs-about",
       "status": "working code",
-      "discipline": [],
       "type": "",
-      "server-side": true,
-      "integration_level": 6,
       "developer": [
 	{
           "name": "Balamma",
@@ -25,7 +22,7 @@
           }
         },
         {
-          "name": "Madhavi Puliraju",
+          "name": "Sanchita",
           "title": "",
           "role": "Software Engineer",
           "organization": "VLEAD",
@@ -33,7 +30,7 @@
           "web": "",
           "department": "Software Engg Research Lab (SERL)",
           "contact": {
-            "email": "madhavi@vlabs.ac.in",
+            "email": "sanchita@vlabs.ac.in",
 	    "alternate_email": "",
             "mobile_number": "",
             "office_number": ""
@@ -68,7 +65,7 @@
           "configure": [],
           "pre_build": [],
           "build": [
-            "cd ../;cp src/runtime/config.org.sample src/runtime/config.org;make build"
+            "cd ../;make build"
           ],
           "post_build": [
             "rm /var/www/html/index.html",
