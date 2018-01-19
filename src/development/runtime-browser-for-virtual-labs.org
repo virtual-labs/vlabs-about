@@ -1,104 +1,95 @@
-#+AUTHOR: VLEAD
-#+DATE: [2018-01-16 Tuesday]
-#+SETUPFILE: ./org-templates/level-0.org
-#+TAGS: boilerplate(b)
-#+EXCLUDE_TAGS: boilerplate
-#+OPTIONS: ^:nil
-
-* Runtime Browser for Virtual Labs
-
-** Overview and Motivation
-   Virtual Labs is providing an easier approach to access
-   Virtual Labs and its experiments using runtime browser
-   through [[https://www.virtualbox.org/wiki][Virtual Box]].  Installing VirtualBox will eliminate
-   the need for installing dependencies such as Adobe Flash,
-   Java3D, etc. on user machine.  The VirtualBox that is
-   provided by Virtual Labs can be used for both [[https://info.vlabs.ac.in/workshops/][Online]] and
-   [[https://info.vlabs.ac.in/college-cloud-edition/][Offline (College Cloud)]] versions of Virtual Labs.
+*** Overview and Motivation
+    Virtual Labs is providing an easier approach to access
+    Virtual Labs and its experiments using runtime browser
+    through [[https://www.virtualbox.org/wiki][Virtual Box]].  Installing VirtualBox will eliminate
+    the need for installing dependencies such as Adobe Flash,
+    Java3D, etc. on user machine.  The VirtualBox that is
+    provided by Virtual Labs can be used for both [[https://info.vlabs.ac.in/workshops/][Online]] and
+    [[https://info.vlabs.ac.in/college-cloud-edition/][Offline (College Cloud)]] versions of Virtual Labs.
    
-** Audience
-   Virtual Lab users.
+*** Audience
+    Virtual Lab users.
 
-** Systems Requirements
-   Minimum systems requirements.
-   1) Operating Systems (OS) - Any OS that supports Oracle
-     VirtualBox or VMWare Workstation. The system should
-     have the provision to support [[https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/virtualization_administration_guide/sect-virtualization-troubleshooting-enabling_intel_vt_and_amd_v_virtualization_hardware_extensions_in_bios][Virtualization]]
-     Technology.
-   2) 4GB RAM.
-   3) Dual Core processor.
+*** Systems Requirements
+    Minimum systems requirements.
+    1) Operating Systems (OS) - Any OS that supports Oracle
+      VirtualBox or VMWare Workstation. The system should
+      have the provision to support [[https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/virtualization_administration_guide/sect-virtualization-troubleshooting-enabling_intel_vt_and_amd_v_virtualization_hardware_extensions_in_bios][Virtualization]]
+      Technology.
+    2) 4GB RAM.
+    3) Dual Core processor.
 
-** VirtualBox installation steps
+*** VirtualBox installation steps
 
-    1) Visit  the VirtualBox  provider website.  Please note
-       that installation needs to be done only once.
-    2) Choose the appropriate VirtualBox version based on
-       the Operating System ( OS ) installed on the machine.
-    3) Download the selected VirtualBox.
-    4) VirtualBox installation steps for Windows OS :
-       1) Double click on .exe file.
-       2) Follow the instructions appearing on installation
-          wizard.
-       3) After installation, ensure that a VirtualBox icon
-          is created on the desktop.
-    5) Steps 6,7 and 8 are installation step examples for
-       CentOS-6.x, Ubuntu 14.04. and Mac OS
-       respectively. These installation steps will vary
-       based on the version of the OS installed on the user
-       machine. Please follow the [[https://www.virtualbox.org/wiki/Linux_Downloads][link]] for appropriate
-       steps.
-    6) VirtualBox installation steps for CentOS-6.X OS :
-       1) Download RPM package using the following command :
-       wget http://download.virtualbox.org/virtualbox/5.1.6/VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm
-       2) Install VirtualBox using the following command :
-        sudo rpm -i VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm
-    7) VirtualBox installation steps for Ubuntu 14.04 :
-       1) Download RPM package using the following command :
-        wget http://download.virtualbox.org/virtualbox/5.2.0/virtualbox-5.2_5.2.0-118431~Ubuntu~trusty_amd64.deb
-       2) Install VirtualBox using the following command :
-        sudo dpkg -i virtualbox-5.2_5.2.0-118431~Ubuntu~trusty_amd64.deb
-    8) VirtualBox installation steps for Mac OS :
-       1) Follow the [[http://download.virtualbox.org/virtualbox/5.2.0/VirtualBox-5.2.0-118431-OSX.dmg][link]] to download the VirtualBox for Mac and save it.
-       2) Double click on downloaded (.dmg) file and follow the instructions for installation.
+     1) Visit  the VirtualBox  provider website.  Please note
+        that installation needs to be done only once.
+     2) Choose the appropriate VirtualBox version based on
+        the Operating System ( OS ) installed on the machine.
+     3) Download the selected VirtualBox.
+     4) VirtualBox installation steps for Windows OS :
+        1) Double click on .exe file.
+        2) Follow the instructions appearing on installation
+           wizard.
+        3) After installation, ensure that a VirtualBox icon
+           is created on the desktop.
+     5) Steps 6,7 and 8 are installation step examples for
+        CentOS-6.x, Ubuntu 14.04. and Mac OS
+        respectively. These installation steps will vary
+        based on the version of the OS installed on the user
+        machine. Please follow the [[https://www.virtualbox.org/wiki/Linux_Downloads][link]] for appropriate
+        steps.
+     6) VirtualBox installation steps for CentOS-6.X OS :
+        1) Download RPM package using the following command :
+        wget http://download.virtualbox.org/virtualbox/5.1.6/VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm
+        2) Install VirtualBox using the following command :
+         sudo rpm -i VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm
+     7) VirtualBox installation steps for Ubuntu 14.04 :
+        1) Download RPM package using the following command :
+         wget http://download.virtualbox.org/virtualbox/5.2.0/virtualbox-5.2_5.2.0-118431~Ubuntu~trusty_amd64.deb
+        2) Install VirtualBox using the following command :
+         sudo dpkg -i virtualbox-5.2_5.2.0-118431~Ubuntu~trusty_amd64.deb
+     8) VirtualBox installation steps for Mac OS :
+        1) Follow the [[http://download.virtualbox.org/virtualbox/5.2.0/VirtualBox-5.2.0-118431-OSX.dmg][link]] to download the VirtualBox for Mac and save it.
+        2) Double click on downloaded (.dmg) file and follow the instructions for installation.
 
-** Virtual-Labs VirtualBox import steps
+*** Virtual-Labs VirtualBox import steps
 
-    1) Follow the [[http://files.virtual-labs.ac.in/downloads/virtual-boxes/][link]] to download and save the file
-       ubuntu-14.04-college-cloud.ova. Note that import
-       steps need to be performed only once.
-    2) Double click on the ubuntu-14.04-college-cloud.ova
-       file. An import window will appear.
-    3) Import the file ubuntu-14.04-college-cloud.ova and
-       follow the steps to install it. This may take 5 to 10
-       minutes.
-    4) On completion of step 3, select the
-       ubuntu-14.04-college-cloud from the VirtualBox
-       window. Allocate the Processor and Memory/RAM size
-       from the Settings menu appropriately, based on the
-       system configuration of the user machine.
-       Recommended Settings for the imported box :
-       1) Processor --> 1
-       2) Memory/RAM size --> 2GB
+     1) Follow the [[http://files.virtual-labs.ac.in/downloads/virtual-boxes/][link]] to download and save the file
+        ubuntu-14.04-college-cloud.ova. Note that import
+        steps need to be performed only once.
+     2) Double click on the ubuntu-14.04-college-cloud.ova
+        file. An import window will appear.
+     3) Import the file ubuntu-14.04-college-cloud.ova and
+        follow the steps to install it. This may take 5 to 10
+        minutes.
+     4) On completion of step 3, select the
+        ubuntu-14.04-college-cloud from the VirtualBox
+        window. Allocate the Processor and Memory/RAM size
+        from the Settings menu appropriately, based on the
+        system configuration of the user machine.
+        Recommended Settings for the imported box :
+        1) Processor --> 1
+        2) Memory/RAM size --> 2GB
 
-** Using VirtualBox to run Virtual Labs
+*** Using VirtualBox to run Virtual Labs
 
-    1) Windows Users: Double click the VirtualBox icon on
-       the desktop to start the VirtualBox.
-    2) Linux Users (CentOS, Debian, Ubuntu, etc): Search for
-       VirtualBox on user machine and select it.
-    3) Start ubuntu-14.04-college-cloud box.
-    4) Login to ubuntu-14.04-college-cloud using the
-       following credentials:
-       User Name : College Cloud
-       Password : cc
-    5) Open Firefox and type [[http://vlabs.ac.in/][vlabs.ac.in]] to use Virtual
-       Labs.
-    6) The above steps need to be followed each time Virtual
-       Labs is accessed through the VirtualBox.
+     1) Windows Users: Double click the VirtualBox icon on
+        the desktop to start the VirtualBox.
+     2) Linux Users (CentOS, Debian, Ubuntu, etc): Search for
+        VirtualBox on user machine and select it.
+     3) Start ubuntu-14.04-college-cloud box.
+     4) Login to ubuntu-14.04-college-cloud using the
+        following credentials:
+        User Name : College Cloud
+        Password : cc
+     5) Open Firefox and type [[http://vlabs.ac.in/][vlabs.ac.in]] to use Virtual
+        Labs.
+     6) The above steps need to be followed each time Virtual
+        Labs is accessed through the VirtualBox.
 
-** Note:
-   - Please use only Firefox ( provided in the VirtualBox )
-     to use Virtual Labs. 
-   - Do not upgrade Firefox version in
-     the VirtualBox.
+*** Note:
+    - Please use only Firefox ( provided in the VirtualBox )
+      to use Virtual Labs. 
+    - Do not upgrade Firefox version in
+      the VirtualBox.
 

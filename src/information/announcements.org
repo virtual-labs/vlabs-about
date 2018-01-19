@@ -1,64 +1,57 @@
-#+AUTHOR: VLEAD
-#+DATE: [2018-01-16 Tuesday]
-#+SETUPFILE: ./org-templates/level-0.org
-#+TAGS: boilerplate(b)
-#+EXCLUDE_TAGS: boilerplate
-#+OPTIONS: ^:nil
+*** Announcements
 
-* Announcements
-
-|------+---------------------------------+-------------------------------------|
-| S.No | Links and Logins                | Workshops and Releases              |
-|------+---------------------------------+-------------------------------------|
-|   1. | NCs Login                       | May 10 and 11, 2017.                |
-|      |                                 | Virtual Labs College-Cloud-Edition  |
-|      |                                 | Workshop is conducting at Jaypee    |
-|      |                                 | University of Information           |
-|      |                                 | Technology, Waknaghat,              |
-|      |                                 | Himachal Pradesh on                 |
-|      |                                 | May 10 and 11, 2017.                |
-|------+---------------------------------+-------------------------------------|
-|   2. | NCs Registration                | April 04, 2017.                     |
-|      |                                 | Virtual Labs College-Cloud-Edition  |
-|      |                                 | Workshop conducted at Vardhaman     |
-|      |                                 | College on 4th April, 2017.         |
-|------+---------------------------------+-------------------------------------|
-|   3. | VLab Team Login                 | March 16, 2017.                     |
-|      |                                 | Virtual Labs 4th Integration        |
-|      |                                 | Workshop on College-Cloud-Edition   |
-|      |                                 | conducted at IIIT Hyderabad for     |
-|      |                                 | the Virtual Labs consortion on      |
-|      |                                 | 15th and 16th March, 2017.          |
-|      |                                 | Follow the link for detailed        |
-|      |                                 | report.                             |
-|------+---------------------------------+-------------------------------------|
-|   4. | Lab Feedback Form               | Mar 15, 2017.                       |
-|      |                                 | Virtual Labs College-Cloud-Edition  |
-|      |                                 | released on 15th March, 2017.       |
-|------+---------------------------------+-------------------------------------|
-|   5. | Virtual Labs on YouTube         | Feb 28, 2017.                       |
-|      |                                 | State-level workshop on Virtual     |
-|      |                                 | Labs at Global Institute of         |
-|      |                                 | Management & Emerging Technologies, |
-|      |                                 | Amritsar has been successfully      |
-|      |                                 | completed on Feb 21, 2017.          |
-|------+---------------------------------+-------------------------------------|
-|   6. | Upcoming Virtual Labs workshops | Feb 21, 2017.                       |
-|      |                                 | State-level workshop on Virtual     |
-|      |                                 | Labs at Jaypee University of        |
-|      |                                 | Information Technology, Waknaghat,  |
-|      |                                 | Himachal Pradesh is scheduled on    |
-|      |                                 | Feb 28, 2017.                       |
-|------+---------------------------------+-------------------------------------|
-|   7. | Virtual Labs recommended for    | Aug 27, 2016.                       |
-|      | Skill-Development Programme     | State-level workshop on Virtual     |
-|      |                                 | Labs at Sarvepalli Radhakrishnan    |
-|      |                                 | University, Bhopal has been         |
-|      |                                 | successfully completed on           |
-|      |                                 | August 27, 2016.                    |
-|------+---------------------------------+-------------------------------------|
-|   8. | contribute to the announcements |                                     |
-|------+---------------------------------+-------------------------------------|
+  |------+---------------------------------+-------------------------------------|
+  | S.No | Links and Logins                | Workshops and Releases              |
+  |------+---------------------------------+-------------------------------------|
+  |   1. | NCs Login                       | May 10 and 11, 2017.                |
+  |      |                                 | Virtual Labs College-Cloud-Edition  |
+  |      |                                 | Workshop is conducting at Jaypee    |
+  |      |                                 | University of Information           |
+  |      |                                 | Technology, Waknaghat,              |
+  |      |                                 | Himachal Pradesh on                 |
+  |      |                                 | May 10 and 11, 2017.                |
+  |------+---------------------------------+-------------------------------------|
+  |   2. | NCs Registration                | April 04, 2017.                     |
+  |      |                                 | Virtual Labs College-Cloud-Edition  |
+  |      |                                 | Workshop conducted at Vardhaman     |
+  |      |                                 | College on 4th April, 2017.         |
+  |------+---------------------------------+-------------------------------------|
+  |   3. | VLab Team Login                 | March 16, 2017.                     |
+  |      |                                 | Virtual Labs 4th Integration        |
+  |      |                                 | Workshop on College-Cloud-Edition   |
+  |      |                                 | conducted at IIIT Hyderabad for     |
+  |      |                                 | the Virtual Labs consortion on      |
+  |      |                                 | 15th and 16th March, 2017.          |
+  |      |                                 | Follow the link for detailed        |
+  |      |                                 | report.                             |
+  |------+---------------------------------+-------------------------------------|
+  |   4. | Lab Feedback Form               | Mar 15, 2017.                       |
+  |      |                                 | Virtual Labs College-Cloud-Edition  |
+  |      |                                 | released on 15th March, 2017.       |
+  |------+---------------------------------+-------------------------------------|
+  |   5. | Virtual Labs on YouTube         | Feb 28, 2017.                       |
+  |      |                                 | State-level workshop on Virtual     |
+  |      |                                 | Labs at Global Institute of         |
+  |      |                                 | Management & Emerging Technologies, |
+  |      |                                 | Amritsar has been successfully      |
+  |      |                                 | completed on Feb 21, 2017.          |
+  |------+---------------------------------+-------------------------------------|
+  |   6. | Upcoming Virtual Labs workshops | Feb 21, 2017.                       |
+  |      |                                 | State-level workshop on Virtual     |
+  |      |                                 | Labs at Jaypee University of        |
+  |      |                                 | Information Technology, Waknaghat,  |
+  |      |                                 | Himachal Pradesh is scheduled on    |
+  |      |                                 | Feb 28, 2017.                       |
+  |------+---------------------------------+-------------------------------------|
+  |   7. | Virtual Labs recommended for    | Aug 27, 2016.                       |
+  |      | Skill-Development Programme     | State-level workshop on Virtual     |
+  |      |                                 | Labs at Sarvepalli Radhakrishnan    |
+  |      |                                 | University, Bhopal has been         |
+  |      |                                 | successfully completed on           |
+  |      |                                 | August 27, 2016.                    |
+  |------+---------------------------------+-------------------------------------|
+  |   8. | contribute to the announcements |                                     |
+  |------+---------------------------------+-------------------------------------|
 
 
 
