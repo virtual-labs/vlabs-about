@@ -1,11 +1,11 @@
 *** Internship Program June 1, 2017 to July 20, 2017
-    #+caption: layout of landing page
+    #+caption: Team photo
     #+name: fig:layout
    [[./information/images/team.jpg]]
 *** Interns/Projects/Experience
 **** Sounak Pradhan
 ***** Photo 
-   #+caption: layout of landing page
+   #+caption: Sounak Pradhan
    #+name: fig:layout
    [[./information/images/sounak.jpg]]
 
@@ -25,7 +25,7 @@
 
 **** Kanay Gupta 
 ***** Photo 
-   #+caption: layout of landing page
+   #+caption: Kanay Gupta
    #+name: fig:layout
    [[./information/images/kanaygupta.jpg]]
 
@@ -45,7 +45,7 @@
 
 **** Mahee Surya  
 ***** Photo 
-   #+caption: layout of landing page
+   #+caption: Mahee Surya
    #+name: fig:layout
    [[./information/images/maheesurya.jpg]]
 
@@ -62,7 +62,7 @@
    
 **** Nikhil Bansal
 ***** Photo
-   #+caption: layout of landing page
+   #+caption: Nikhil Bansal
    #+name: fig:layout
    [[./information/images/nikhil.jpg]]
 
@@ -81,7 +81,7 @@
 
 **** Aditya Todi 
 ***** Photo
-   #+caption: layout of landing page
+   #+caption: Aditya Todi
    #+name: fig:layout
    [[./information/images/aditya.jpg]]
 
@@ -96,10 +96,10 @@
      experience. Working in a professional environment was
      new to me. Mentors and other interns helped me a lot in
      my project.
-
+     
 **** Yahnit 
 ***** Photo
-   #+caption: layout of landing page
+   #+caption: Yahnit
    #+name: fig:layout
    [[./information/images/yahnit.jpg]]
 
@@ -120,7 +120,7 @@
 
 **** Utkarsh
 ***** Photo
-   #+caption: layout of landing page
+   #+caption: Utkarsh
    #+name: fig:layout
    [[./information/images/utkarsh.jpg]]
 
@@ -140,7 +140,7 @@
      work in any professional environment in the future.
 **** Anirudh
 ***** Photo
-   #+caption: layout of landing page
+   #+caption: Anirudh
    #+name: fig:layout
    [[./information/images/anirudh.jpg]]
 
@@ -165,7 +165,7 @@
 
 **** Projit Bandyopadhyay
 ***** Photo
-   #+caption: layout of landing page
+   #+caption: Projit Bandyopadhyay
    #+name: fig:layout
    [[./information/images/projit-bandyopadhyay.jpg]]
 
@@ -190,7 +190,7 @@
      this internship in the future.
 **** Atreyee
 ***** Photo
-   #+caption: layout of landing page
+   #+caption: Atreyee
    #+name: fig:layout
    [[./information/images/atreyee.jpg]]
 
@@ -212,7 +212,7 @@
      fields.
 **** Savar Mehrotra 
 ***** Photo
-   #+caption: layout of landing page
+   #+caption: Savar Mehrotra
    #+name: fig:layout
    [[./information/images/savarmehrotra.jpg]]
   
