@@ -58,7 +58,7 @@
        2) Install VirtualBox using the following command :
         sudo dpkg -i virtualbox-5.2_5.2.0-118431~Ubuntu~trusty_amd64.deb
     8) VirtualBox installation steps for Mac OS :
-       1) Follow the [[download.virtualbox.org/virtualbox/5.2.0/VirtualBox-5.2.0-118431-OSX.dmg][link]] to download the VirtualBox for Mac and save it.
+       1) Follow the [[http://download.virtualbox.org/virtualbox/5.2.0/VirtualBox-5.2.0-118431-OSX.dmg][link]] to download the VirtualBox for Mac and save it.
        2) Double click on downloaded (.dmg) file and follow the instructions for installation.
 
 ** Virtual-Labs VirtualBox import steps

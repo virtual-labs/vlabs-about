@@ -9,7 +9,7 @@
 * Community
    #+include: "./community/index.org"
 * Workshops
-#+include: "./workshops/index.org
+#+include: "./workshops/index.org"
 * Information 
 #+include: "./information/index.org"
 
