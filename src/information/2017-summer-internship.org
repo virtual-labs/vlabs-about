@@ -23,8 +23,9 @@
 
 **** Kanay Gupta 
 ***** Photo 
-
-    [[https://github.com/virtual-labs/vlabs-about/blob/html-to-literate/src/information/images/kanaygupta.jpg][Kanay Gupta]]
+   #+caption: layout of landing page
+   #+name: fig:layout
+   [[./information/images/kanaygupta.jpg]]
 
 ***** Project Title: Data Structures Virtual Lab
     I built experiments for the Data Structures Virtual Lab to improve
@@ -42,8 +43,10 @@
 
 **** Mahee Surya  
 ***** Photo 
+   #+caption: layout of landing page
+   #+name: fig:layout
+   [[./information/images/maheesurya.jpg]]
 
-    [[https://github.com/virtual-labs/vlabs-about/blob/html-to-literate/src/information/images/maheesurya.jpg][Mahee Surya]]
 ***** Project Title: Conversion of Virtual Labs from Flash to JavaScript
     I converted Virtual Lab experiments from Flash to JavaScript. Hence
     creating similar experiences in JavaScript can benefit us with
@@ -57,7 +60,10 @@
    
 **** Nikhil Bansal
 ***** Photo
-      [[https://github.com/virtual-labs/vlabs-about/blob/html-to-literate/src/information/images/nikhil.jpg][Nikhil Bansal]]
+   #+caption: layout of landing page
+   #+name: fig:layout
+   [[./information/images/nikhil.jpg]]
+
 ***** Project Title:Rebuilding the Linux Lab
      I debugged the code of the existing Linux Lab and now
      the Lab is running fine on Ubuntu 14.04 system. I also
@@ -73,7 +79,10 @@
 
 **** Aditya Todi 
 ***** Photo
-     [[https://github.com/virtual-labs/vlabs-about/blob/html-to-literate/src/information/images/aditya.jpg][Aditya Todi]]
+   #+caption: layout of landing page
+   #+name: fig:layout
+   [[./information/images/aditya.jpg]]
+
 ***** Project Title:Experiment as a Service
      The project was to build a Virtual Labs Platform which
      can be used to serve the content of experiments. The aim
@@ -88,7 +97,10 @@
 
 **** Yahnit 
 ***** Photo
-     [[https://github.com/virtual-labs/vlabs-about/blob/html-to-literate/src/information/images/yahnit.jpg][Yahnit]]
+   #+caption: layout of landing page
+   #+name: fig:layout
+   [[./information/images/yahnit.jpg]]
+
 ***** Project Title: Lab Data Service Dashboard
      Our goal was to minimize the users efforts in accessing
      and manipulating data of Virtual Labs. We developed it
@@ -106,7 +118,10 @@
 
 **** Utkarsh
 ***** Photo
-     [[https://github.com/virtual-labs/vlabs-about/blob/html-to-literate/src/information/images/utkarsh.jpg][Utkarsh]]
+   #+caption: layout of landing page
+   #+name: fig:layout
+   [[./information/images/utkarsh.jpg]]
+
 ***** Project Title:Lab Data Service Dashboard
      The project required us to design a user-friendly
      dashboard for Lab Data Service (LDS) to minimize the
@@ -123,7 +138,10 @@
      work in any professional environment in the future.
 **** Anirudh
 ***** Photo
-     [[https://github.com/virtual-labs/vlabs-about/blob/html-to-literate/src/information/images/anirudh.jpg][Anirudh]]
+   #+caption: layout of landing page
+   #+name: fig:layout
+   [[./information/images/anirudh.jpg]]
+
 ***** Project Title: A. Modelling a web application in Alloy
      The first project I worked on was using a specification
      language (like alloy) to model our web application.This
@@ -145,7 +163,10 @@
 
 **** Projit Bandyopadhyay
 ***** Photo
-      [[https://github.com/virtual-labs/vlabs-about/blob/html-to-literate/src/information/images/projit-bandyopadhyay.jpg][Projit Bandyopadhyay]]
+   #+caption: layout of landing page
+   #+name: fig:layout
+   [[./information/images/projit-bandyopadhyay.jpg]]
+
 ***** Project Title: A. Oauth Service
      In this project I surveyed current industrial standards
      on authorization and authentication between
@@ -167,7 +188,10 @@
      this internship in the future.
 **** Atreyee
 ***** Photo
-     [[https://github.com/virtual-labs/vlabs-about/blob/html-to-literate/src/information/images/atreyee.jpg][Atreyee]]
+   #+caption: layout of landing page
+   #+name: fig:layout
+   [[./information/images/atreyee.jpg]]
+
 ***** Project Title: A. Web App in Haskell
      I worked on projects using functional languages- chiefly
      Haskell. The first project comprised of writing a
@@ -186,7 +210,10 @@
      fields.
 **** Savar Mehrotra 
 ***** Photo
-      [[https://github.com/virtual-labs/vlabs-about/blob/html-to-literate/src/information/images/savarmehrotra.jpg][Savar Mehrotra]]
+   #+caption: layout of landing page
+   #+name: fig:layout
+   [[./information/images/savarmehrotra.jpg]]
+  
 ***** Project Title:Tool for Continuous Integration
      I developed a microservice for the DevOps practice
      continuous integration as part of this project. We
