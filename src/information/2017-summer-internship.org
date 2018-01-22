@@ -1,5 +1,7 @@
 *** Internship Program June 1, 2017 to July 20, 2017
-   [[https://github.com/virtual-labs/vlabs-about/blob/html-to-literate/src/information/images/team.jpg][team photo]]
+    #+caption: layout of landing page
+    #+name: fig:layout
+   [[./information/images/team.jpg]]
 *** Interns/Projects/Experience
 **** Sounak Pradhan
 ***** Photo 
