@@ -87,7 +87,7 @@
      + On receipt of the above form, Virtual Labs Outreach
        Team would conduct the workshop on the scheduled date.
 
-*** Frequently Asked Questions
-*** Past Workshops
+*** [[https://info.vlabs.ac.in/faq/][Frequently Asked Questions]]
+*** [[http://outreach.virtual-labs.ac.in/ws_details#/ws-list][Past Workshops]]
 
 
