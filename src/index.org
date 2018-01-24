@@ -20,7 +20,7 @@
 * Development 
   #+include: "./development/index.org"
 
-* JS Utils
+* JS Utils  :boilerplate:
   This utility ensures goes through a configured list of
   hyperlinks and changes them to open in a new tab. 
   
