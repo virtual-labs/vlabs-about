@@ -4,6 +4,8 @@
 #+TAGS: boilerplate(b)
 #+EXCLUDE_TAGS: boilerplate
 #+OPTIONS: ^:nil
+#+HTML_HEAD: <script type="text/javascript" src="style/js/hooks.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="style/js/newtab.js"></script>
 
 * Community
    #+include: "./community/index.org"
@@ -18,3 +20,34 @@
 * Development 
   #+include: "./development/index.org"
 
+* JS Utils
+  This utility ensures goes through a configured list of
+  hyperlinks and changes them to open in a new tab. 
+  
+#+name: newtab
+#+BEGIN_SRC javascript :tangle js/newtab.js :eval no :noweb yes
+var listOfTags = ["google"];
+
+var openHrefTagsInNewTab = function() {
+  var atags = document.getElementsByTagName("a");
+  var atagsArray = Array.from(atags);
+  var filteredArray = atagsArray.filter(function(elem) {
+    var retFlag = false;
+    listOfTags.forEach(function(regEx) {
+      if (elem.href.indexOf(regEx) > -1)
+        retFlag = true;
+    });
+    return retFlag;
+  });
+
+  filteredArray.map(function(elem) { return elem.target = "_blank"; });
+
+}
+
+Hooks.addHook('documentReady', openHrefTagsInNewTab);
+
+$(document).ready(function () { 
+  Hooks.runHooks('documentReady');
+});
+
+#+END_SRC

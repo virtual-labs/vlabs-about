@@ -1,3 +1,5 @@
 ** [[http://dev.vlabs.ac.in/][Virtual Labs Development]]
+   Please visit Virtual Labs development [[http://dev.vlabs.ac.in][web site]] for more
+   details.
 ** Runtime Browser For Virtual Labs
    #+include: "./runtime-browser-for-virtual-labs.org"
