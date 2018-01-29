@@ -1,0 +1,116 @@
+#+TITLE: Technology Catalog
+#+AUTHOR: VLEAD
+#+DATE: [2018-01-29 Mon]
+#+SETUPFILE: ./org-templates/level-0.org
+#+TAGS: boilerplate(b)
+#+EXCLUDE_TAGS: boilerplate
+#+OPTIONS: ^:nil
+
+* Introduction
+  This document catalogs the technologies and services
+  developed at VLEAD that have the potential to be used at
+  various stages of any software development to deployment
+  and post deployment.
+
+* Portable Cluster on Infrastructure as a Service platforms
+** Description
+   Infrastructure as a service unfetters the organizations
+   from hardware purchases and focus on building various
+   software components.  Different servers required to host
+   the various software components make up a cluster.  When
+   a creation of a cluster is automated to host on a
+   particular IAAS vendor, the same solution will not work
+   on another vendor's cloud.  At VLEAD, the solution of
+   cluster automation hinges on the idea - 'build once,
+   deploy anywhere'.
+
+   This solution allows an organization to work agnostic of
+   the cloud vendor.  A module that helps monitoring of the
+   cluster and when incorporated into the cluster is not
+   dependent on the monitoring service of that particular
+   vendor.  Performance scaling will be another such vendor
+   agnostic module.  In an area where virtualization
+   techniques are changing rapidly, the constant should be a
+   modular evolution of the cluster.  In this solution, the
+   creation of the cluster is driven from a configuration.
+   Virtualization technology - vms, containers etc- is
+   chosen from the configuration in the module that is
+   responsible for creation of the nodes in the cluster.
+   The configuration module kicks in after to configure
+   various rules - firewall, backup , monitoring etc.
+
+   In summary, the portable cluster solution provides a
+   mechanism to choose one's own matrix of configuration and
+   host them on any vendor.
+
+** Application Areas
+   A co-operative that sells commuting services can use a
+   portable cluster to allow a testing environment on their
+   premises, staging environment on rented hardware,
+   production environment on a major cloud provider.
+** Type of Work
+   Software System
+** Research Area
+   Cluster Automation, Cluster Scheduling, Distributed
+   Cluster Scheduling
+** Keywords
+   Cluster Automation, Cluster Scheduling, Distributed
+   Cluster Scheduling, Performance scaling, system
+   containers, application containers
+
+* Auto Deployment Service
+** Description
+   Auto Deployment Service(ADS) is combination of multiple
+   microservices which transforms sources available as a git
+   repository to a fully functional service available on a
+   server.  This is a tool used by VLEAD a division of
+   Virtual Labs in deploying various virtual labs and other
+   infrastructure services. It is one of the primary
+   ingredients in the tool chain that allows continuous
+   integration and continuous deployment of Virtual Labs.
+
+   The first artifact the ADS checks in the repository after
+   it pulls is deployment specification.  The specification
+   holds information about - the type of machine defined by
+   an OS, RAM size, cpu size etc.; the application software
+   and defined by by how it built; and the configuration of
+   various services.
+
+   The ADS service can itself be configured to pick a
+   virtualization technique and the cloud platform on which
+   the virtual machines are created.  Currently the
+   supported virtualization technique is openVZ and the
+   cloud platform is AWS.  These can be extended to cover
+   other virtualization techniques like docker, LXC etc and
+   cloud platforms like AZURE, CTRL-S etc. 
+
+   The service after the creation of a machine installs a
+   deployer service on the newly created machine.  The
+   deployer service goes through deployment specification
+   and executes the commands to build, install and configure
+   the software.  After successful installation and
+   configuration, the IP address of the machine is
+   returned. 
+
+** Application Areas
+   A co-operative that sells commuting services can use a
+   Auto Deployment Service (ADS) to deploy various services
+   that make up the platform.  ADS can be integrated into
+   CI/CD pipeline of the organization.
+
+** Type of Work
+   Software System
+** Research Area
+   Cluster Automation, Continuous Integration, Continuous Deployment
+** Keywords
+   Cluster Automation, Continuous Integration, Continuous
+   Deployment, Auto Deployment
+
+* Automated Portals from Sources in Markup Languages
+** Description
+   Light weight markup languages like markdown and org allow
+   users to write content in free style with a minimal set
+   of formatting syntax.  These languages allow the same
+   content to be transformed to HTML for further
+   interpretation by the a browser.
+
