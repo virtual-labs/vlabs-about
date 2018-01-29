@@ -21,12 +21,12 @@
   #+include: "./development/index.org"
 
 * JS Utils  :boilerplate:
-  This utility ensures goes through a configured list of
-  hyperlinks and changes them to open in a new tab. 
+  This utility goes through a configured list of hyperlinks
+  and changes them to open in a new tab.
   
 #+name: newtab
 #+BEGIN_SRC javascript :tangle js/newtab.js :eval no :noweb yes
-var listOfTags = ["google"];
+var listOfTags = ["google", "virtualbox", "redhat", "java", "vlabs", "webchat"];
 
 var openHrefTagsInNewTab = function() {
   var atags = document.getElementsByTagName("a");
