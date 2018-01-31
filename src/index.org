@@ -35,7 +35,7 @@ var openHrefTagsInNewTab = function() {
   var filteredArray = atagsArray.filter(function(elem) {
     var retFlag = false;
     listOfTags.forEach(function(regEx) {
-      if (elem.href.indexOf(regEx) > -1)
+      if (elem.href.indexOf("vlabs-about") == -1 && elem.href.indexOf(regEx) > -1)
         retFlag = true;
     });
     return retFlag;
