@@ -8,19 +8,17 @@
 #+HTML_HEAD: <script type="text/javascript" src="style/js/newtab.js"></script>
 
 * Community
-   #+include: "./community/index.org"
+#+include: "./community/index.org"
 * Workshops
 #+include: "./workshops/index.org"
 * Information 
 #+include: "./information/index.org"
-
+* Development 
+#+include: "./development/index.org"
 * FAQ 
 #+include: "./faq/faq.org"
-
-* Development 
-  #+include: "./development/index.org"
 * Licensing
- #+include: "./licensing/index.org"
+#+include: "./licensing/index.org"
 * JS Utils  :boilerplate:
   This utility goes through a configured list of hyperlinks
   and changes them to open in a new tab.
