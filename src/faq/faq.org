@@ -92,16 +92,16 @@
         The Virtual labs are divided into two categories on
         the Virtual Labs home page (www.vlabs.ac.in)
 
-        [[https://info.vlabs.ac.in/search_feature/disciplines/ElectronicsAndCommunications/index.html][All Labs (Domain Wise)]]
+        [[https://vlabs.ac.in][All Labs (Domain Wise)]]
 
-        [[https://info.vlabs.ac.in/search_feature/institutes/IIT-Delhi/index.html][All Labs (Institute Wise)]]
+        [[https://vlabs.ac.in][All Labs (Institute Wise)]]
 
-        [[https://vlabs.ac.in/courses][All Labs on Open edX]]
+        [[https://vlabs.ac.in/][All Labs on Open edX]]
 
         You can click on any of the above links which are on
         the main menu under Labs option to find out labs of
         your perfernce .  For some of the labs, you will
-        first have to [[https://vlabs.ac.in/register][register]] prior to conducting the
+        first have to [[https://openedx.vlabs.ac.in/register][register]] prior to conducting the
         experiments.
 
    Q8. What are the software requirements for Virtual Labs?
@@ -124,7 +124,7 @@
        6. Need an Electronics Faculty while running some of the
           adders, multiplexers experiments.
 
-       For more details, please follow the [[https://info.vlabs.ac.in/workshops/][link]]
+       For more details, please follow the [[http://vlabs-about.vlabs.ac.in/#sec-2][link]]
 
    Q10. Our college internet network has firewalls. Should
         any specific care be taken?
@@ -163,7 +163,7 @@
 
         Simulation based Labs: Many of the simulation based
         labs (marked with '*' require one-time registration
-        [[https://vlabs.ac.in/][link]]. You can register by clicking the [[https://vlabs.ac.in/register][register]]
+        [[https://vlabs.ac.in/][link]]. You can register by clicking the [[https://openedx.vlabs.ac.in/register][register]]
         button on the top right corner of any Virtual Labs
         Page. However some labs that do not require
         registration can be directly accessed by following
@@ -228,7 +228,7 @@
 
    Q17. How can a college conduct a Virtual Lab Workshop?
         
-        For details, please follow the [[https://info.vlabs.ac.in/workshops/][link]]
+        For details, please follow the [[http://vlabs-about.vlabs.ac.in/#sec-2][link]]
 
    Q18. Whom can I contact if I get stuck while using
         Virtual Labs?  
@@ -269,7 +269,7 @@
        labs for Science and Engineering students. Simulation
        based experimentation would now be possible without
        the internet facility. This initiative would make the
-       labs developed by [[https://vlabs.ac.in/#partner][top technical institutes]] accessible
+       labs developed by [[https://vlabs.ac.in/][top technical institutes]] accessible
        to every college.
 
    Q3. Who can use Virtual Labs College Cloud Edition?
@@ -341,12 +341,13 @@
        2. Fill the [[https://docs.google.com/a/vlabs.ac.in/forms/d/e/1FAIpQLScvUGaE6ln6JzeIVc2CqTXwac_R69WhzoM5TrW6y99hFB6nbw/viewform?embedded=true][Expression]] of Interest form.
        3. You will be contacted by the Virtual Labs Outreach
           Team.
-       4. On confirmation from the Virtual Labs team on the
-          workshop date (as filled in the [[https://docs.google.com/a/vlabs.ac.in/forms/d/e/1FAIpQLScvUGaE6ln6JzeIVc2CqTXwac_R69WhzoM5TrW6y99hFB6nbw/viewform?embedded=true][Expression of
-          Interest]]) , you will need to download the
-          checklist [[./forms/Prerequisite-college-cloud-version-workshop.docx][form]] for offline Virtual Labs College
-          Cloud version. You would need mail the duly
-          fill/scanned form to workshops@vlabs.ac.in .
+       4. On confirmation from the Virtual Labs team on the workshop
+          date (as filled in the
+          [[https://docs.google.com/a/vlabs.ac.in/forms/d/e/1FAIpQLScvUGaE6ln6JzeIVc2CqTXwac_R69WhzoM5TrW6y99hFB6nbw/viewform?embedded=true][Expression
+          of Interest]]) , you will need to download the checklist
+          [[./forms/Prerequisite-college-cloud-version-workshop.docx][form]] for offline Virtual Labs College Cloud version. You
+          would need mail the duly fill/scanned form to
+          workshops@vlabs.ac.in .
       5. On receipt of the above form, Virtual Labs Outreach
          Team would conduct the workshop on the scheduled
          date at your premises.
@@ -372,14 +373,12 @@
   Q10. Where can I get support on Virtual Labs College Cloud
        Edition ?  
 
-       You can get help on Virtual Labs College Cloud
-       Edition and other Virtual Labs related issues by
-       posting on the mailing list for [[https://groups.google.com/a/vlabs.ac.in/forum/?hl=en#%21forum/engineers][engineers]]
-       contributing to Virtual Labs. [[https://groups.google.com/a/vlabs.ac.in/forum/?hl=en#%21forum/engineers][Subscribe/Unsubscribe]]
-       to the < a
+       You can get help on Virtual Labs College Cloud Edition and
+       other Virtual Labs related issues by posting on the mailing
+       list for [[https://groups.google.com/a/vlabs.ac.in/forum/?hl=en#%21forum/engineers][engineers]] contributing to Virtual
+       Labs. [[https://groups.google.com/a/vlabs.ac.in/forum/?hl=en#%21forum/engineers][Subscribe/Unsubscribe]] to the < a
        href="https://groups.google.com/a/vlabs.ac.in/forum/?hl=en#%21forum/engineers">engineers
-       mailing list. You can also post your queries to the <
-       a
+       mailing list. You can also post your queries to the < a
        href="https://plus.google.com/communities/104131148292250423165">teacher's
        community .
 
@@ -496,7 +495,7 @@
         - [[http://vlabs.ac.in/][Vlabs web page]] should be accessible from the
           browser.
         - Registration should be successful from
-          [[http://vlabs.ac.in/register][registration]] page.
+          [[https://openedx.vlabs.ac.in/register][registration]] page.
         - Lab-level and experiment-level feedback links (
           within a lab) should be working within the
           institute network.
@@ -588,7 +587,7 @@
        [[https://groups.google.com/a/vlabs.ac.in/forum/?hl=en#%21forum/engineers][engineers]] contributing to Virtual Labs. You may
        [[https://groups.google.com/a/vlabs.ac.in/forum/?hl=en#%21forum/engineers][Subscribe/Unsubscribe]] to the [[https://groups.google.com/a/vlabs.ac.in/forum/?hl=en#!forum/engineer][engineers]] mailing
        list. You can also post your queries to the
-       [[https://plus.google.com/communities/104131148292250423165][teacher'scommunity]] .
+       [[https://plus.google.com/communities/104131148292250423165][teacher's community]] .
 
   Q14. What are the terms and conditions for using Virtual
        Labs in your college ?

@@ -4,8 +4,8 @@
     through [[https://www.virtualbox.org/wiki][Virtual Box]].  Installing VirtualBox will eliminate
     the need for installing dependencies such as Adobe Flash,
     Java3D, etc. on user machine.  The VirtualBox that is
-    provided by Virtual Labs can be used for both [[https://info.vlabs.ac.in/workshops/][Online]] and
-    [[https://info.vlabs.ac.in/college-cloud-edition/][Offline (College Cloud)]] versions of Virtual Labs.
+    provided by Virtual Labs can be used for both [[http://vlabs-about.vlabs.ac.in/#sec-2-2][Online]] and
+    [[http://vlabs-about.vlabs.ac.in/#sec-2-1][Offline (College Cloud)]] versions of Virtual Labs.
    
 *** Audience
     Virtual Lab users.

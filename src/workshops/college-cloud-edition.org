@@ -1,5 +1,5 @@
 *** Virtual Labs College Cloud Edition
-
+    
 **** Overview and Motivation
      Virtual Labs College Cloud Edition is the
      Portable-Edition for Virtual Labs. It offers the offline
@@ -72,7 +72,7 @@
        contact for all logistical and technical coordination
        between the institute and Virtual Labs.
 
-*** Frequently Asked Questions
-*** Past Workshops
+*** [[http://vlabs-about.vlabs.ac.in/#sec-4][Frequently Asked Questions]]
+*** [[http://outreach.virtual-labs.ac.in/ws_details#/ws-list][Past Workshops]]
 
 

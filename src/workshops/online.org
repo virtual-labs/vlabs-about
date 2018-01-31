@@ -61,19 +61,19 @@
     
 ****** Pre-Workshop checklist
       - [[http://vlabs.ac.in/][Vlabs web page]] should be accessible from the browser.
-      - Registration should be successful from [[http://vlabs.ac.in/register][registration page]].
+      - Registration should be successful from [[https://openedx.vlabs.ac.in/register][registration page]].
       - Within a lab, lab-level and experiment-level feedback
         links should be working within the institute network.
 
 ***** Requirements for Offline College Cloud Edition
       The Institute should be a Central/State University or
       Institute/college approved by AICTE/UGC. Kindly follow
-      the [[https://info.vlabs.ac.in/college-cloud-edition/][link]] to get detailed requirements for Virtual Labs
+      the [[http://vlabs-about.vlabs.ac.in/#sec-2-1][link]] to get detailed requirements for Virtual Labs
       College Cloud Edition.
     
 **** Request for Workshops
      Follow the steps below to have a workshop conducted at your college :
-     + Please make sure that the [[https://info.vlabs.ac.in/workshops/#requirements][requirements]] (offline College
+     + Please make sure that the [[http://vlabs-about.vlabs.ac.in/#sec-2-2-1][requirements]] (offline College
        Cloud version/online version) are met.
      + Fill the [[https://docs.google.com/forms/d/e/1FAIpQLScvUGaE6ln6JzeIVc2CqTXwac_R69WhzoM5TrW6y99hFB6nbw/viewform?embedded=true][Expression of Interest]] form.
      + Virtual Labs Outreach Team would contact you in 5-10
@@ -87,7 +87,7 @@
      + On receipt of the above form, Virtual Labs Outreach
        Team would conduct the workshop on the scheduled date.
 
-*** [[https://info.vlabs.ac.in/faq/][Frequently Asked Questions]]
+*** [[http://vlabs-about.vlabs.ac.in/#sec-4][Frequently Asked Questions]]
 *** [[http://outreach.virtual-labs.ac.in/ws_details#/ws-list][Past Workshops]]
 
 
