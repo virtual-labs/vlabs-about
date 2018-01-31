@@ -264,7 +264,7 @@
        Edition?
 
        Virtual Labs College Cloud Edition currently has
-       about [[http://community.vlabs.ac.in/docs/college-cloud/labs-on-college-cloud/list-of-labs-in-college-cloud.html#list-of-labs][75]] labs (750+ experiments) across multiple
+       about [[http://community.vlabs.ac.in/docs/user-manuals/college-cloud/labs-on-college-cloud/list-of-labs-in-college-cloud.html#list-of-labs][75]] labs (750+ experiments) across multiple
        disciplines. It aims at providing remote access to
        labs for Science and Engineering students. Simulation
        based experimentation would now be possible without
@@ -366,8 +366,9 @@
 
   Q9. How do I deploy Virtual Labs College Cloud Edition ?  
   
-      Virtual Labs College Cloud Edition could be deployed
-      by following the steps described in the [[http://community.vlabs.ac.in/docs/college-cloud/installation-manual.html][installation
+      Virtual Labs College Cloud Edition could be deployed by
+      following the steps described in the
+      [[http://community.vlabs.ac.in/docs/user-manuals/college-cloud/installation-manual.html][installation
       manual]].
 
   Q10. Where can I get support on Virtual Labs College Cloud
