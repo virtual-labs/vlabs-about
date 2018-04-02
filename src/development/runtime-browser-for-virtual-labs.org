@@ -54,7 +54,7 @@
 
 *** Virtual-Labs VirtualBox import steps
 
-     1) Follow the [[http://files.virtual-labs.ac.in/downloads/virtual-boxes/][link]] to download and save the file
+     1) Follow the [[http://files.vlabs.ac.in/downloads/virtual-boxes/ubuntu-14.04-college-cloud.ova][link]] to download and save the file
         ubuntu-14.04-college-cloud.ova. Note that import
         steps need to be performed only once.
      2) Double click on the ubuntu-14.04-college-cloud.ova
